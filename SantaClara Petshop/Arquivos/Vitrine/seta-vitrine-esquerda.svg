@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="seta-vitrine-esquerda" transform="translate(-0.359 -0.011)">
+    <g id="Retângulo_310" data-name="Retângulo 310" transform="translate(0.359 0.011)" fill="#fff" stroke="#b1b1b1" stroke-width="1">
+      <rect width="30" height="30" rx="15" stroke="none"/>
+      <rect x="0.5" y="0.5" width="29" height="29" rx="14.5" fill="none"/>
+    </g>
+    <g id="direita" transform="translate(10.131 8.198)">
+      <g id="right-arrow_1_" data-name="right-arrow (1)" transform="translate(8.093 13.776) rotate(180)">
+        <g id="Grupo_317" data-name="Grupo 317" transform="translate(0)">
+          <path id="Caminho_273" data-name="Caminho 273" d="M7.874,6.351,1.743.22A.755.755,0,0,0,.677.22L.226.671a.755.755,0,0,0,0,1.066L5.374,6.885.22,12.039a.755.755,0,0,0,0,1.066l.451.451a.755.755,0,0,0,1.066,0L7.874,7.42a.761.761,0,0,0,0-1.069Z" fill="#bbb"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

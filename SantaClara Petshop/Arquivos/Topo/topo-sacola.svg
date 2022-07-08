@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.922" height="29" viewBox="0 0 24.922 29">
+  <g id="topo-sacola" transform="translate(-36)">
+    <g id="Grupo_8" data-name="Grupo 8" transform="translate(36)">
+      <g id="Grupo_7" data-name="Grupo 7" transform="translate(0)">
+        <path id="Caminho_8" data-name="Caminho 8" d="M56.311,6.8a7.932,7.932,0,0,0-15.7,0H36V25.6A3.4,3.4,0,0,0,39.4,29H57.523a3.4,3.4,0,0,0,3.4-3.4V6.8Zm-7.85-4.531A5.674,5.674,0,0,1,54.012,6.8H42.91A5.674,5.674,0,0,1,48.461,2.266ZM58.656,25.6a1.136,1.136,0,0,1-1.133,1.133H39.4A1.136,1.136,0,0,1,38.266,25.6V9.062H58.656Z" transform="translate(-36)"/>
+      </g>
+    </g>
+    <path id="Caminho_9" data-name="Caminho 9" d="M123.93,230.2c4.276,0,7.93-3.931,7.93-9.062V220h-2.266v1.133c0,3.75-2.543,6.8-5.664,6.8s-5.664-3.047-5.664-6.8V220H116v1.133C116,226.281,119.665,230.2,123.93,230.2Z" transform="translate(-75.469 -207.539)"/>
+  </g>
+</svg>

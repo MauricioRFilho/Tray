@@ -1,0 +1,40 @@
+    .footer{
+        background-color: #1D1D1D;
+    }
+
+    .title-footer {
+        text-align: left;
+        font: normal normal bold 13px/20px Nunito;
+        letter-spacing: 0px;
+        color: #FECF11;
+    }
+
+    .link-footer {
+        text-align: left;
+        font: normal normal normal 12px/30px Nunito;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+
+    .title-atendimento {
+        text-align: left;
+        font: normal normal bold 13px/30px Nunito;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
+
+    .contact-container {
+        text-align: left;
+        font: normal normal normal 12px/26px Nunito;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }
+
+    .footer .fone-1,
+    .footer .fone-2 {
+        text-align: left;
+        font: normal normal bold 14px/30px Nunito;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+    }

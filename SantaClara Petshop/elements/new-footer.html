@@ -2,26 +2,93 @@
 {% set whatsappNumber = Translation('ag_telefone_3') %}
 {% set phone = Translation('ag_telefone_1') %}
 {% set phone2 = Translation('ag_telefone_2') %}
+{% set atendimento = Translation('ag_atendimento') %}
+{% set msgRodape = Translation('ag_mensagem_rodape') %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap"
+    rel="stylesheet">
 
 <footer class="footer {% if 'home' not in pages.current %} with-border {% endif %}">
-    <div class="atendimento footer">
+    <div class="atendimento footer col-sm-12">
+        <div class="title-footer">Atendimento</div>
         <div class="col-sm-6">
-            <h3 class="title-atendimento">Matriz:</h3>
-
-
-
-
-            
+            <div class="title-atendimento">Matriz:</div>
+            <div class="fone-1">
+                <i>fone</i>
+                <span>{{phone}}</span>
+            </div>
+            <div class="fone-2">
+                <i>zap</i>
+                <span>(41) 99611-1823</span>
+            </div>
+            <div class="contact-container">
+                <div class="time">Seg a Sab das 9h as 19h</div>
+                <div class="contact">{{email}}</div>
+            </div>
         </div>
-        <div class="col-sm-6"></div>
+        <div class="col-sm-6">
+            <div class="title-atendimento">Filial:</div>
+            <div class="fone-1">
+                <i>fone</i>
+                <span>{{phone}}</span>
+            </div>
+            <div class="fone-2">
+                <i>zap</i>
+                <span>{{whatsappNumber}}</span>
+            </div>
+            <div class="contact-container">
+                <div class="time">{{atendimento}}</div>
+            </div>
+        </div>
     </div>
-    <div class="institucional footer">
-
+    <div class="institucional footer col-sm-6">
+        <div class="title-footer">Institucional</div>
+        <a href="" class="link-footer">Quem somos</a>
+        <a href="" class="link-footer">Política de privacidade</a>
+        <a href="" class="link-footer">Nossa Missão</a>
+        <a href="" class="link-footer">Nossa Visão</a>
+        <a href="" class="link-footer">Nossos Valores</a>
     </div>
-    <div class="minha-conta footer">
-
+    <div class="minha-conta footer col-sm-6">
+        <div class="title-footer">Minha Conta</div>
+        <a href="" class="link-footer">Minha Conta</a>
+        <a href="" class="link-footer">Meus Pedidos</a>
+        <a href="" class="link-footer">Trocas e Devoluções</a>
+        <a href="" class="link-footer">Formas de Pagamento</a>
     </div>
-    <div class="suporte footer">
+    <div class="suporte footer col-sm-6">
+        <div class="title-footer">Suporte</div>
+        <a href="" class="link-footer">Dúvidas Frequentes</a>
+        <a href="" class="link-footer">Frete e Entrega</a>
+        <a href="" class="link-footer">Fale Conosco</a>
+    </div>
 
+    <div class="endereco-rodape col-sm-12">
+        Matriz: R. Eduardo Pinto da Rocha, 3500 - Sítio Cercado Curitiba - PR, 81935-000
+    </div>
+    <div class="endereco-rodape col-sm-12">
+        Filial: R. Francisco Derosso, 4346 - Alto Boqueirão Curitiba - PR, 81850-004
+    </div>
+    <div class="suporte footer col-sm-12">
+        <div class="title-footer">Formas de Pagamento</div>
+        {% element 'snippets/payment-list' %}
+    </div>
+    <div class="suporte footer col-sm-12">
+        <div class="title-footer">Redes Sociais</div>
+        <i>face</i><a href="" class="link-footer-social">@santaclarapetshop</a>
+        <i>insta</i><a href="" class="link-footer-social">@santaclarapetshop</a>
+
+        {% if seals.ebit %}
+        <li class="ebit-seal">
+            {{ seals.ebit }}
+        </li>
+        {% endif %}
+
+        {% if seals.hackersafe %}
+        <li class="loja-protegida-seal">
+            {{ seals.hackersafe }}
+        </li>
+        {% endif %}
     </div>
 </footer>
